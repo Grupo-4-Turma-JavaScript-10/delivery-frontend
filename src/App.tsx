@@ -12,9 +12,9 @@ function App() {
       <Navbar />
 
       <main className='min-h-[80vh]'>
-
-      </main>
         <Home />
+      </main>
+        
       <Footer />
     </BrowserRouter>
     </>
