@@ -20,15 +20,15 @@ function Home() {
         aria-label="Imagem de fundo mostrando alimentos saudáveis"
       />
       
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/60 to-black/70" />
       
-      <section className="relative z-10 min-h-[calc(100vh-5rem)] flex items-center px-6 sm:px-10 md:px-16 lg:px-24">
+      <section className="relative z-10 flex items-start pt-24 md:pt-32 lg:pt-40 px-6 sm:px-10 md:px-16 lg:px-24">
         <div className="max-w-4xl text-white">
-          <span className="inline-block font-inter text-lg sm:text-xl md:text-2xl tracking-wide text-amber-100 animate-fade-in">
+          <span className="inline-block font-inter text-xl sm:text-2xl md:text-2xl tracking-wide text-amber-100 animate-fade-in">
             Nutrição Simples e Pura
           </span>
           
-          <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-sansita font-normal leading-tight sm:leading-[1.1]">
+          <h1 className="mt-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-sansita font-normal leading-tight sm:leading-[1.1]">
             Um equilíbrio perfeito entre{' '}
             <br className="hidden sm:block" />
             <span className="italic text-amber-200">Sabor, Saúde</span> e{' '}
@@ -36,14 +36,14 @@ function Home() {
             <span className="italic text-amber-200">Prazer</span>
           </h1>
           
-          <div className="mt-8 md:mt-10 flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+          <div className="mt-9 md:mt-11 flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
             <button
               onClick={handleBuyNow}
               className="w-full sm:w-auto font-inter font-semibold text-lg md:text-xl lg:text-2xl 
                        bg-[#933C24] hover:bg-[#A85741] 
                        active:bg-[#7A3019] 
                        transition-all duration-300 
-                       px-8 py-3 rounded-md 
+                       px-9 py-3.5 rounded-md 
                        shadow-lg hover:shadow-xl 
                        transform hover:-translate-y-0.5
                        focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-black"
@@ -60,7 +60,7 @@ function Home() {
                        transition-all duration-300 
                        group
                        focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-black
-                       rounded-md px-4 py-3"
+                       rounded-md px-5 py-3.5"
               aria-label="Saiba mais sobre nossos produtos"
             >
               Saiba Mais{' '}
@@ -75,4 +75,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
