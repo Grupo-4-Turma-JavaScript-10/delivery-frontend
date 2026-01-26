@@ -25,8 +25,7 @@ function Navbar() {
             <div className="max-w-7xl mx-auto px-8 py-4">
                 <div className="flex items-center justify-between">
                     
-                    {/* Logo */}
-                    <div className="md:-ml-35">
+                    <div className="md:-ml-8">
                         <Link
                             to="/home"
                             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
