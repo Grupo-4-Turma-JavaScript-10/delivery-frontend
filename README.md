@@ -6,7 +6,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-06B6D4?style=flat-square&logo=tailwindcss)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 
 > ✨ Uma aplicação frontend moderna e elegante de entrega de produtos desenvolvida com as tecnologias mais recentes e inovadoras da web.
 
@@ -147,6 +147,15 @@ delivery-frontend/
 └── 📋 README.md                # Este arquivo
 ```
 
+## 💡 Boas Práticas
+
+- ✅ Componentes devem usar **PascalCase** (`MyComponent.tsx`)
+- ✅ Utilize **TypeScript** para melhor tipagem
+- ✅ Mantenha componentes **pequenos e focados**
+- ✅ Use **Tailwind CSS** para consistência
+- ✅ Siga as regras do **ESLint**
+- ✅ Componentes em **pastas próprias**
+- ✅ Exports nomeados para melhor importação
 
 ## 🔧 Configurações Importantes
 
@@ -163,18 +172,23 @@ Execute `npm run lint` regularmente para manter a qualidade do código.
 
 Este projeto é licenciado sob a licença **MIT** - veja o arquivo LICENSE para detalhes.
 
-## 👤 Autor
+## � Equipe de Desenvolvimento
 
-Desenvolvido como parte de um projeto de delivery. 🚚
+Este projeto foi desenvolvido pela equipe **Grupo 4** da **Turma JavaScript 10**:
+
+- **[Gabrieli Martins](https://github.com/imgabrielimartins)** - Membro
+- **[Kauã Gabriel de Farias](https://github.com/kauafarias1)** - Membro
+- **[Assis Pires Neto](https://github.com/Lancellot)** - Membro
+- **[Lilia](https://github.com/Lyliun)** - Membro
+- **[Patrícia Souza](https://github.com/Patriciasdr)** - Membro
+- **[Pedro](https://github.com/Perdop)** - Membro
+
 
 ---
 
 <div align="center">
 
-### 📞 Suporte & Contribuições
 
-[⭐ Star esse projeto](https://github.com) • [🐛 Reportar Issue](https://github.com/issues) • [💡 Sugerir Melhoria](https://github.com/discussions)
-
-**Feito com ❤️ usando React, TypeScript & Tailwind CSS**
+**Desenvolvido com ❤️ pela equipe Grupo 4 - Turma JavaScript 10**
 
 </div>
