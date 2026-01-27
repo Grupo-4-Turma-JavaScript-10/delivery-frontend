@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
 
-      <main className='min-h-[60vh]'>
+      <main className='min-h-[60vh]  bg-gradient-to-b from-black via-[#2B1B14] to-[#3A1F15]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
