@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Home from './pages/home/Home'
+import Sobre from './pages/sobre/Sobre';
         
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
 
       <main className='min-h-[60vh]'>
-        <Home />
+        <Sobre />
       </main>
         
       <Footer />
