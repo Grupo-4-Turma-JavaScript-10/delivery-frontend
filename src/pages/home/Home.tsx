@@ -77,7 +77,11 @@ function Home() {
       <section>
         <SobreSection/>
       </section>
-
+      <section className='gap-2'>
+        <div> 
+          <br/>
+        </div>
+      </section>
 
     </>
   )
