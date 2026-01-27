@@ -5,7 +5,7 @@ function Sobre() {
     <span className='bg-black w-full'>
       <section className="py-27 px-[5%] w-full min-h-100 bg-[url('/src/assets/SobrenosBG.jpg')] bg-cover bg-center flex flex-col items-center">
         <h1 className="font-sansita font-normal text-white text-5xl z-1">Sobre nós</h1>
-        <section className='mb-10 font-inter mt-10 rounded-4xl flex w-full bg-white/75 z-1 p-[6%] gap-15 flex-wrap justify-center items-center'>
+        <section className='mb-10 font-inter mt-10 rounded-4xl flex w-full bg-white/75 z-1 p-[6%] gap-15 flex-wrap justify-around items-center'>
           <img src="/src/assets/vertex.png" alt="Vertex.bah" className='w-70 h-min' />
           <span className='flex flex-col gap-4 max-w-120'>
             <p> Vertex.bah é uma equipe de desenvolvedores gaúchos, unida pelo gosto por tecnologia e inovação. Nascemos no Bootcamp da Generation Brasil, onde nos conhecemos, trocamos experiências e descobrimos que juntos podemos ir muito mais longe. </p>
