@@ -15,6 +15,7 @@ function App() {
 
       <main className='min-h-[60vh]  bg-gradient-to-b from-black via-[#2B1B14] to-[#3A1F15]'>
         <Routes>
+          <Route path='/delivery-frontend/' element={<Home />} />
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path="/produtos" element={<ProdutoPage />} />
